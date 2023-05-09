@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/shop_pic"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:layoutDirection="ltr"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="100dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:text="Shop"
+        android:textSize="35dp"
+        android:gravity="center_vertical"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:text="Gold:"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="0"
+        android:layoutDirection="ltr"
+        android:drawableLeft="@drawable/coin_lil"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:id="@+id/tvGoldShop"
+    />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="100dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="Damage:"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="10"
+        android:layoutDirection="ltr"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:id="@+id/tvDamageDealShop"
+    />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="45dp"
+    android:textColor="@android:color/white"
+    android:text="(increase the damage dealt to the monster)"
+    android:textSize="13dp"
+    android:gravity="center_vertical"
+    />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Cost:20 (+10)"
+        android:backgroundTint="#2eb82e"
+        android:id="@+id/btnUpgradeDamageShop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="100dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="More Gold:"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="0%"
+        android:layoutDirection="ltr"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:id="@+id/tvMoreGoldPercentageShop"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/white"
+        android:text="(increase the gold gained)"
+        android:textSize="13dp"
+        android:gravity="center_vertical"
+    />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Cost:40 (+10%)"
+        android:backgroundTint="#2eb82e"
+        android:id="@+id/btnUpgradeGoldShop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="100dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="Crit chance:"
+        android:textSize="23dp"
+        android:gravity="center_vertical"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="0%"
+        android:layoutDirection="ltr"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:id="@+id/tvCritPercentageShop"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/white"
+        android:text="(chance to deal 100% more damage)"
+        android:textSize="13dp"
+        android:gravity="center_vertical"
+    />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Cost:40 (+10%)"
+        android:backgroundTint="#2eb82e"
+        android:id="@+id/btnUpgradeCritShop"/>
+    </RelativeLayout>
+
+
+       <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"    
+            android:layout_weight="10"
+            android:layout_marginTop="10dp"
+            android:text="Exit Shop"
+            android:backgroundTint="#2eb82e"
+            android:id="@+id/btnExitshopShop"/>
+</LinearLayout>

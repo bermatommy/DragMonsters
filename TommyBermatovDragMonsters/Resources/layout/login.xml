@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/register_pic"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:text="Login"
+        android:textSize="40dp"
+        android:gravity="center_vertical"
+        android:layout_weight="20"
+    />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:hint="Email:"
+        android:textColorHint="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="left"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEmailLogin"
+        android:layout_weight="10"
+    />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:hint="password:"
+        android:textColorHint="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:id="@+id/etPasswordLogin"
+        android:layout_weight="10"
+    />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Login"
+        android:layout_weight="15"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#ff751a"
+        android:id="@+id/btnLoginLogin"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"    
+        android:layout_weight="15"
+        android:text="Forgot Password"
+        android:backgroundTint="#ff751a"
+        android:id="@+id/btnForgotPassword"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"    
+        android:layout_weight="15"
+        android:text="Cancel"
+        android:backgroundTint="#ff751a"
+        android:id="@+id/btnCancelLogin"/>
+
+</LinearLayout>

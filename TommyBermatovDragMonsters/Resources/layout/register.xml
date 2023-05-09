@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/register_pic"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:text="Register"
+        android:textSize="40dp"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+    />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:hint="Email:"
+        android:textColorHint="@android:color/white"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="5"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etEmailRegister"
+    />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:hint="password:"
+        android:layout_weight="5"
+        android:textColorHint="@android:color/white"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etPasswordRegister"
+    />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:hint="password should be at least 6 characters:"
+        android:layout_weight="10"
+        android:textColorHint="@android:color/white"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+    />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"    
+        android:layout_marginTop="70dp"
+        android:text="register"
+        android:layout_weight="15"
+        android:backgroundTint="#ff751a"
+        android:id="@+id/btnRegisterRegister"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_weight="15"
+        android:text="Cancel"
+        android:backgroundTint="#ff751a"
+        android:id="@+id/btnCancelRegister"/>
+
+</LinearLayout>

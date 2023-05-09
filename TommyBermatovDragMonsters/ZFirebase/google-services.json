@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "111732653428",
+    "project_id": "dragmonsters-d92de",
+    "storage_bucket": "dragmonsters-d92de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111732653428:android:3b83c2531d22078d5cc021",
+        "android_client_info": {
+          "package_name": "com.companyname.tommybermatovdragmonsters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111732653428-9eopssm3lfiol488ej1ugcq2h843qrsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALGCS1kcQ-vOCZKIRB1nezOA5J5wZE_tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111732653428-9eopssm3lfiol488ej1ugcq2h843qrsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

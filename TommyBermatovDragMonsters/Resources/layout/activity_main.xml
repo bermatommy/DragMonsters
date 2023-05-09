@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/homepage_pic"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:text="Drag Monsters"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/tvPrecentage"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:text="──────────"
+        android:textSize="35dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+    />
+
+    </RelativeLayout>
+
+    
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:textSize="20dp"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00ccff"
+        android:layout_gravity="right"
+        android:id="@+id/btnLoginHP"
+    />
+
+    
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Register"
+        android:layout_gravity="left"
+        android:backgroundTint="#00cc00"
+        android:id="@+id/btnRegisterHP"
+    />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:text="Tutorial"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:id="@+id/btnTutorial"
+    />
+
+</LinearLayout>
